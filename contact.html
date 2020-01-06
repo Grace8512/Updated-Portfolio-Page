@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Contact Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
+</head>
+<body>
+    
+    <div id="body-container">
+        <header>
+            <div class="navBar">
+                <h1 id="h1Name">Grace Cho</h1>
+                <nav>
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                    <a id="icon-img" href="https://www.linkedin.com/in/grace-cho-6266b9175/">
+                    <img src="assets/images/linkedin.png">
+                    </a>     
+                </nav>
+            </div>
+        </header>
+
+        <div class="substance"  class="content">
+            <h1 id="subTitle">Contact</h1>
+
+            <form action="/action_page.php">
+                Name
+                <input id = "name" placeholder="John Smith" type="text" name="name">
+                <br>
+                Email<br>
+                <input id="email" placeholder="example@gmail.com" type="text" name="e-mail">
+                <br>
+                Message<br>
+                <textarea id="message" type="text" name="message"></textarea>
+                <br><br>
+                <button type="button" >submit</button>
+            </form> 
+        </div>
+    </div>
+    </div>    
+        <footer>
+            <div>
+            Copyright &nbsp;&copy;
+            </div>
+        </footer>
+        <!-- Firebase -->
+        <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-database.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/javascript/contact.js"></script>
+   
+</body>
+</html>
